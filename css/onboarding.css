@@ -1,0 +1,102 @@
+.contentify-ai-ob-form, .contentify-ai-ob-form * {
+	box-sizing: border-box;
+}
+.contentify-ai-ob-form {
+	opacity: 0;
+	max-width: 900px;
+	margin: 20px auto 0;
+	display: block;
+	overflow-x: hidden;
+}
+.caiobf-step-rail {
+	width: 400%;
+}
+.caiobf-step {
+	width: 25%;
+	display: inline-block;
+	padding: 0 1%;
+	float: left;
+}
+.contentify-ai-ob-form label, .contentify-ai-ob-form input[type="text"] {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.contentify-ai-ob-form label {
+	text-align: center;
+	font-size: 20px;
+}
+.caiobf-btn, .caiobf-btn:visited, .caiobf-btn:link, .caiobf-btn:hover {
+	display: inline-block;
+	background-color: #dc50e5;
+	color: #fff;
+	padding: 7px;
+	text-align: center;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.caiobf-btn.caiobf-btn-black, .caiobf-btn.caiobf-btn-black:visited, .caiobf-btn.caiobf-btn-black:link, .caiobf-btn.caiobf-btn-black:hover {
+	background-color: #000;
+	border: 1px solid #fff;
+}
+.caiobf-btn-flex {
+	display: flex;
+	gap: 10%;
+	justify-content: center;
+}
+.caiobf-btn-flex .caiobf-btn {
+	flex: 0 1 30%;
+}
+.caiobf-uo-page, .caiobf-uo-item {
+	background-color: #343444;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+.caiobf-uo-page-title, .caiobf-uo-page-type, .caiobf-uo-page-actions, .caiobf-uo-item-title, .caiobf-uo-item-title, .caiobf-uo-item-type, .caiobf-uo-item-status {
+	flex: 1 0 33.333%;
+}
+.caiobf-uo-item-status {
+	flex: 0 1 auto !important;
+	text-align: right;
+}
+.caiobf-uo-page-type {
+	text-align: center;
+}
+.caiobf-uo-page-actions {
+	text-align: right;
+}
+.caiobf-btn.caiobf-btn-include, .caiobf-btn.caiobf-btn-include:visited, .caiobf-btn.caiobf-btn-include:link, .caiobf-btn.caiobf-btn-include:hover,
+.caiobf-btn.caiobf-btn-exclude, .caiobf-btn.caiobf-btn-exclude:visited, .caiobf-btn.caiobf-btn-exclude:link, .caiobf-btn.caiobf-btn-exclude:hover {
+	background-color: #565656;
+	margin-bottom: 0;
+	display: inline;
+}
+.caiobf-ajax-loader {
+	display: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 0;
+}
+.doing-ajax .caiobf-ajax-loader {
+	display: block;
+}
+.caiobf-uo-page-excluded .caiobf-btn-exclude {
+	display: none !important;
+}
+.caiobf-uo-page-included .caiobf-btn-include {
+	display: none !important;
+}
+.caiobf-uo-page-included .caiobf-btn-exclude {
+	display: inline;
+}
+.caiobf-uo-page {
+	opacity: 0.4;
+}
+.caiobf-uo-page.caiobf-uo-page-included {
+	opacity: 1;
+}
